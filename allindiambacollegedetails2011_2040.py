@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/assam-institute-of-hotel-management-guwahati-58095",
-  "https://www.shiksha.com/college/sri-parashuram-institute-of-technology-research-khandwa-60293",
-  "https://www.shiksha.com/college/prof-ram-meghe-college-of-engineering-and-management-badnera-amravati-60437",
-  "https://www.shiksha.com/college/sree-venkateswara-college-of-engineering-nellore-61025",
-  "https://www.shiksha.com/college/vasavi-institute-of-management-and-computer-science-kadapa-62525",
-  "https://www.shiksha.com/college/mother-theresa-institute-of-management-andhra-pradesh-other-68729",
-  "https://www.shiksha.com/college/st-joseph-s-college-for-women-visakhapatnam-68885",
-  "https://www.shiksha.com/college/rjs-first-grade-college-koramangala-bangalore-69481",
-  "https://www.shiksha.com/college/bunts-sangha-s-higher-education-institutions-kurla-east-mumbai-71035",
-  "https://www.shiksha.com/college/tips-school-of-management-coimbatore-91679",
-  "https://www.shiksha.com/college/abdulkalam-institute-of-technological-sciences-telangana-other-97451",
-  "https://www.shiksha.com/college/thangavelu-engineering-college-old-mahabalipuram-road-chennai-21388",
-  "https://www.shiksha.com/college/believers-church-caarmel-engineering-college-pathanamthitta-31059",
-  "https://www.shiksha.com/college/vyas-institute-of-management-vim-rajasthan-jodhpur-37424",
-  "https://www.shiksha.com/college/pyramid-college-of-business-and-technology-phagwara-48950",
-  "https://www.shiksha.com/college/kes-shroff-college-of-arts-and-commerce-kandivali-west-mumbai-49388",
-  "https://www.shiksha.com/college/sam-college-of-engineering-and-technology-bhopal-52582",
-  "https://www.shiksha.com/college/international-institute-of-aviation-bangalore-kudalu-gate-56909",
-  "https://www.shiksha.com/college/international-centre-of-excellence-in-engineering-and-management-aurangabad-59631",
-  "https://www.shiksha.com/college/kakinada-institute-of-engineering-and-technology-east-godavari-61333",
+  "https://www.shiksha.com/college/e-max-group-of-institutions-ambala-60377",
+  "https://www.shiksha.com/college/fatima-michael-college-of-engineering-and-technology-madurai-61779",
+  "https://www.shiksha.com/college/sahaja-institute-of-technology-sciences-for-women-karimnagar-62231",
+  "https://www.shiksha.com/college/suprabhath-pg-college-nalgonda-62321",
+  "https://www.shiksha.com/college/global-institute-of-technology-and-management-sciences-kadapa-62477",
+  "https://www.shiksha.com/college/dr-k-v-subba-reddy-institute-of-mca-kurnool-63961",
+  "https://www.shiksha.com/college/s-s-k-institute-of-business-management-kadapa-146247",
+  "https://www.shiksha.com/college/new-era-college-of-management-indore-147275",
+  "https://www.shiksha.com/college/m-p-institute-of-fashion-and-design-bhopal-147291",
+  "https://www.shiksha.com/college/evergreen-education-society-college-hoshangabad-147439",
+  "https://www.shiksha.com/college/pitambara-college-of-management-madhya-pradesh-other-147507",
+  "https://www.shiksha.com/college/gandhi-business-school-khurda-148029",
+  "https://www.shiksha.com/college/malineni-lakshmaiah-mba-college-prakasam-188399",
+  "https://www.shiksha.com/college/mahatma-gandhi-mission-s-institute-of-management-aurangabad-190543",
+  "https://www.shiksha.com/college/bharathidasan-school-of-business-erode-193783",
+  "https://www.shiksha.com/college/aringar-anna-institute-of-management-studies-and-computer-application-chennai-193797",
+  "https://www.shiksha.com/college/sri-balaji-post-graduate-college-siddipet-194043",
+  "https://www.shiksha.com/college/khammam-institute-of-technology-and-science-194157",
+  "https://www.shiksha.com/college/visvesvaraya-college-of-engineering-technology-hyderabad-194161",
+  "https://www.shiksha.com/college/jahangirabad-educational-group-of-institutions-faculty-of-management-barabanki-201909",
 ]
 
 
@@ -9244,7 +9244,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =2251
+    c_count =2631
 
     try:
         for base_url in BASE_URL:
